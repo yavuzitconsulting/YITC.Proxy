@@ -4,6 +4,23 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<Authors>Ramazan Yavuz</Authors>
+		<Copyright>Copyright 2022 by Ramazan Yavuz. All rights reserved.</Copyright>
+		<PackageLicenseUrl>https://github.com/yavuzitconsulting/YITC.Proxy/blob/master/LICENSE</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/yavuzitconsulting/YITC.Proxy</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/yavuzitconsulting/YITC.Proxy</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>proxy</PackageTags>
+		<PackageIconUrl>https://i.imgur.com/eEjfRLz.jpg?2</PackageIconUrl>
+		<Description>Package to build a Proxy API, optionally with Role-Based routing</Description>
+		<SignAssembly>true</SignAssembly>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageId>$(AssemblyName)</PackageId>
+		<PackageIcon>android-chrome-512x512.png</PackageIcon>
+		<AssemblyVersion>0.1</AssemblyVersion>
+		<PackageVersion>0.1</PackageVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -12,6 +29,13 @@
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="android-chrome-512x512.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 </Project>
